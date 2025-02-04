@@ -1,0 +1,121 @@
+print("Hello, World!") #1
+print("Hello, World!") #2
+print("Hello, World!") #3
+if 5 > 2:
+  print("Five is greater than two!") 
+  if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+        print("Five is greater than two!") #4
+        #This is a comment
+print("Hello, World!") #5
+x = 5
+y = "John"
+print(x)
+print(y) #6
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John" #7
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z) #8
+x = "Python is awesome"
+print(x) #9
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc() #10
+x = 5
+print(type(x)) #11
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex #12
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3 #13
+print("Hello")
+print('Hello') 
+print("It's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"') #14
+b = "Hello, World!"
+print(b[2:5]) #15
+a = "Hello, World!"
+print(a.upper()) #16
+a = "Hello"
+b = "World"
+c = a + b
+print(c) #17
+age = 36
+txt = "My name is John, I am " + age
+print(txt) #18
+print(10 > 9)
+print(10 == 9)
+print(10 < 9) #19
+print(10 + 5) #20
+thislist = ["apple", "banana", "cherry"]
+print(thislist) #21
+mytuple = ("apple", "banana", "cherry") #22
+thisset = {"apple", "banana", "cherry"}
+print(thisset)#23
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+} #24
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a") #24
+  i = 1
+while i < 6:
+  print(i)
+  i += 1 #25
+  fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x) #26
+  def my_function():
+  print("Hello from a function")
+
+my_function() #27
+x = lambda a : a + 10
+print(x(5)) #28
+cars = ["Ford", "Volvo", "BMW"] #29
+class MyClass:
+  x = 5 #30
+  class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+#Use the Person class to create an object, and then execute the printname method:
+
+x = Person("John", "Doe")
+x.printname() #31
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit)) #32
+x = "Hello World!"
+
+print(len(x))
+mytuple = ("apple", "banana", "cherry")
+#32
+print(len(mytuple))
